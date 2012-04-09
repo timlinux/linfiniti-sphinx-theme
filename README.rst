@@ -2,6 +2,8 @@
 Linfiniti Sphinx Theme
 ======================
 
+.. image:: screenshot.jpeg
+
 This is a theme for the `sphinx documentation system
 <http://sphinx.pocoo.org/>`_ based on the `bootstrap css framework
 <http://twitter.github.com/bootstrap/>`_. It also uses a few icons from the
@@ -23,7 +25,7 @@ Usage:
 ------
 
 We assume that you already have a sphinx documentation project (read their 
-documentation for advice on how to do that. In order to use this theme, you 
+documentation for advice on how to do that). In order to use this theme, you 
 can either install it in a central location (if you plan to use it for more 
 then one project) or install a copy of it with your sphinx documentation 
 project (recommended route, explained here). Assuming you have placed
