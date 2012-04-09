@@ -30,15 +30,21 @@ license can be found `here <http://creativecommons.org/licenses/by-sa/3.0/>`_.
 Please do not remove our name / license logo from the theme without our
 permission.
 
-Usage:
-------
+Simple Installation & Usage:
+----------------------------
 
 We assume that you already have a sphinx documentation project (read their 
 documentation for advice on how to do that). In order to use this theme, you 
 can either install it in a central location (if you plan to use it for more 
 then one project) or install a copy of it with your sphinx documentation 
-project (recommended route, explained here). Assuming you have placed
-this theme under::
+project (recommended route, explained here). 
+
+You can get the latest version of this theme as a unix 'tarball' `here
+<https://github.com/timlinux/linfiniti-sphinx-theme/tarball/master>`_, or if
+you prefer, the latest version is available as a zip file `here
+<https://github.com/timlinux/linfiniti-sphinx-theme/zipball/master>`_.
+
+Assuming you have extracted this theme under::
 
    <your sphinx project>/linfiniti-sphinx-theme
 
@@ -58,6 +64,41 @@ Then regenerate your documentation::
 
 And you should see a new theme activated on your html output when opening
 it with a web browser.
+
+
+Advanced installation (as a git submodule):
+-------------------------------------------
+
+As an alternative to downloading the theme as a zip file, you can use git
+submodule support to include it in your git project::
+
+   git submodule add git@github.com:timlinux/linfiniti-sphinx-theme.git linfiniti-sphinx-theme
+   git submodule
+   git submodule init linfiniti-sphinx-theme
+   git submodule update linfiniti-sphinx-theme
+   git status
+   git commit -m "Import linfiniti-sphinx-theme as a git submodule" -a
+   git push
+   make html
+
+The above being a typical workflow to incorporate the theme as a submodule in
+your project.
+
+.. note:: The theme is frozen at the particular version that was current when
+you perform the git submodule update command.
+
+If you wish to obtain updates to the theme submodule, the procedure is
+something like this::
+
+   cd <your sphinx project>/linfiniti-sphinx-theme
+   git pull
+   cd ..
+
+Then commit the fact that the submodule now tracks a different SHA1::
+
+   git commit -am "Updates linfiniti theme to latest version"
+
+
 
 Reporting issues:
 -----------------
