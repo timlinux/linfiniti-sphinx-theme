@@ -85,7 +85,7 @@ The above being a typical workflow to incorporate the theme as a submodule in
 your project.
 
 .. note:: The theme is frozen at the particular version that was current when
-you perform the git submodule update command.
+   you perform the git submodule update command.
 
 If you wish to obtain updates to the theme submodule, the procedure is
 something like this::
