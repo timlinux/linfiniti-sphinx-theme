@@ -5,7 +5,7 @@ Linfiniti Sphinx Theme
 This is a theme for the `sphinx documentation system
 <http://sphinx.pocoo.org/>`_ based on the `bootstrap css framework
 <http://twitter.github.com/bootstrap/>`_. It also uses a few icons from the
-free `34aL volume 3.2 SE<http://www.icojoy.com/articles/26/>`_ icon set.
+free `34aL volume 3.2 SE <http://www.icojoy.com/articles/26/>`_ icon set.
 
 The base layout.html is taken from the default sphinx theme and modified.
 
@@ -30,7 +30,7 @@ from ours.
 Localised Changes to CSS:
 -------------------------
 
-Please do not modify the :samp:`static/bootstrap` directory contents directly as this is a
+Please do not modify the `static/bootstrap` directory contents directly as this is a
 verbatim copy from the bootstrap project. Rather add your css improvements to
-:samp:`static\linfiniti.css`.
+`static\linfiniti.css`.
 
