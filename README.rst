@@ -2,7 +2,16 @@
 Linfiniti Sphinx Theme
 ======================
 
+Example:
+--------
+
+The example below should give you an idea of what your sphinx markup should
+look like when using this theme.
+
 .. image:: https://github.com/timlinux/linfiniti-sphinx-theme/raw/master/screenshot.jpeg
+
+License:
+--------
 
 This is a theme for the `sphinx documentation system
 <http://sphinx.pocoo.org/>`_ based on the `bootstrap css framework
