@@ -2,7 +2,7 @@
 Linfiniti Sphinx Theme
 ======================
 
-.. image:: screenshot.jpeg
+.. image:: https://github.com/timlinux/linfiniti-sphinx-theme/raw/master/screenshot.jpeg
 
 This is a theme for the `sphinx documentation system
 <http://sphinx.pocoo.org/>`_ based on the `bootstrap css framework
