@@ -3988,3 +3988,63 @@ a.thumbnail:hover {
 .invisible {
   visibility: hidden;
 }
+
+/* Added by Tim from here down. Mostly copies of classes above which should be done using LESS rather */
+.invisible{visibility:hidden;}
+.headerlink { display: none;}
+.admonition{min-height:20px;padding:19px;margin-bottom:20px;background-color:#f5f5f5;border:1px solid #eee;border:1px solid rgba(0, 0, 0, 0.05);-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;-webkit-box-shadow:inset 0 1px 1px rgba(0, 0, 0, 0.05);-moz-box-shadow:inset 0 1px 1px rgba(0, 0, 0, 0.05);box-shadow:inset 0 1px 1px rgba(0, 0, 0, 0.05);}.well blockquote{border-color:#ddd;border-color:rgba(0, 0, 0, 0.15);}
+.admonition-title {font-weight: bold;}
+table.docutils{width: 100%; border:1px solid #ddd;border-collapse:separate;*border-collapse:collapsed;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;}table.docutils th+th,table.docutils td+td,table.docutils th+td,table.docutils td+th{border-left:1px solid #ddd;}
+table.docutils thead:first-child tr:first-child th,table.docutils tbody:first-child tr:first-child th,table.docutils tbody:first-child tr:first-child td{border-top:0;}
+table.docutils thead:first-child tr:first-child th:first-child,table.docutils tbody:first-child tr:first-child td:first-child{-webkit-border-radius:4px 0 0 0;-moz-border-radius:4px 0 0 0;border-radius:4px 0 0 0;}
+table.docutils thead:first-child tr:first-child th:last-child,table.docutils tbody:first-child tr:first-child td:last-child{-webkit-border-radius:0 4px 0 0;-moz-border-radius:0 4px 0 0;border-radius:0 4px 0 0;}
+table.docutils thead:last-child tr:last-child th:first-child,table.docutils tbody:last-child tr:last-child td:first-child{-webkit-border-radius:0 0 0 4px;-moz-border-radius:0 0 0 4px;border-radius:0 0 0 4px;}
+table.docutils thead:last-child tr:last-child th:last-child,table.docutils tbody:last-child tr:last-child td:last-child{-webkit-border-radius:0 0 4px 0;-moz-border-radius:0 0 4px 0;border-radius:0 0 4px 0;}
+
+/* Added by capooti from here down. Classes for displaying UI elements */
+span.cmd-txt {
+    font-family: Courier;
+}
+span.button-name {
+    border: 1px solid #000000;
+    border-radius: 5px;
+    padding: 1px 5px 1px 5px;
+    background: -moz-linear-gradient(100% 100% 90deg, white, DarkGray);
+    background: -webkit-gradient(linear, right top, right bottom, from(DarkGray), to(white));
+}
+span.tool-name {
+    border: 1px solid #000000;
+    padding: 1px 5px 1px 5px;
+    background-color: LemonChiffon;
+}
+span.dialog-name {
+    border: 1px solid #000000;
+    padding: 1px 5px 1px 5px;
+    background-color: DarkGray;
+    font-weight: bold;
+}
+span.tab-name {
+    border: 1px solid #000000;
+    padding: 1px 5px 1px 5px;
+    background: -moz-linear-gradient(100% 100% 90deg, white, DarkGray);
+    background: -webkit-gradient(linear, right top, right bottom, from(DarkGray), to(white));
+}
+span.radio-name {
+    background-image: url(../img/radiobutton.png);
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-color: LightGray;
+    border: 0px solid #000000;
+    padding: 1px 5px 1px 5px;
+    padding-left: 25px;
+}
+span.check-name {
+    background-image: url(../img/checkbox.png);
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-color: LightGray;
+    border: 0px solid #000000;
+    padding: 1px 5px 1px 5px;
+    padding-left: 25px;
+}
+
